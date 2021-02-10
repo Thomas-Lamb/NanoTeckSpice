@@ -5,13 +5,12 @@
 ** NanoTekSpice
 */
 
-#include "../chipsets/Chipset.hpp"
-#include "../input_output/Input.hpp"
-#include "../input_output/Output.hpp"
 #include <iostream>
 #include <string>
+#include "../shell/Shell.hpp"
 
 int main(int argc, char **argv)
 {
-    return 0;
+    Shell shell;
+    return shell.shellStart();
 }

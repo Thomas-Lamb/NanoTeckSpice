@@ -1,6 +1,6 @@
 # three inputs and gate
 
-. chipsets :
+.chipsets :
 
 input i0
 input i1
@@ -9,7 +9,7 @@ input i1
 
 output out
 
-. links :
+.links :
 
 i0:1 and0:1
 i1:1 and0:2
