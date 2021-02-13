@@ -9,6 +9,7 @@ NAME =	NanoTeckSpice
 
 SRC	 =	src/main/main.cpp	\
 		src/shell/Shell.cpp	\
+		src/parsing/Parsing.cpp	\
 
 OBJS		=	$(SRC:.cpp=.o)
 
